@@ -1,0 +1,35 @@
+header {
+    background-color: #708BDD;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+    width: 100%;
+}
+
+ul.nav {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+nav li {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+nav a {
+    text-decoration: none;
+}
