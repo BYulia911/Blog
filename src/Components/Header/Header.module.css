@@ -1,4 +1,4 @@
-header {
+.header {
     background-color: #708BDD;
     width: 100%;
     position: fixed;
@@ -7,7 +7,7 @@ header {
     right: 0;
 }
 
-nav {
+.nav {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,7 +15,7 @@ nav {
     width: 100%;
 }
 
-ul.nav {
+.navList {
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -25,12 +25,15 @@ ul.nav {
     width: 100%;
 }
 
-nav li {
+.li {
     color: white;
     font-weight: bold;
     font-size: 24px;
 }
-nav a {
+.a {
     text-decoration: none;
     color: white;
+}
+.a:hover {
+    color: black;
 }

@@ -1,0 +1,67 @@
+.footer {
+    background-color: #ebf0ff;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.footerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 150px;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+}
+
+.a {
+    text-decoration: underline;
+    font-size: 18px;
+    margin: 0;
+    color: black;
+}
+.a:hover {
+    color: #708BDD;
+}
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.logoImg {
+    height: 49px;
+    width: 49px;
+}
+
+.logoTg {
+    height: 44px;
+    width: 44px;
+}
+
+.logoWhatsup {
+    height: 51px;
+    width: 51px;
+}
+
+.h4 {
+    font-size: 20px;
+    color: black;
+    margin: 0;
+}
+
+.p {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: black;
+}
