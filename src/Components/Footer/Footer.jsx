@@ -15,13 +15,13 @@ function Footer() {
                 <div className={classes.contacts}>
                     <h4 className={classes.h4}>Связаться со мной</h4>
                     <div className={classes.logos}>
-                        <img className={classes.logoImg} src={vkLogo}></img>
+                        <img className={classes.logoVk} src={vkLogo}></img>
                         <img className={classes.logoTg} src={telegramLogo}></img>
                         <img className={classes.logoWhatsup} src={whatsupLogo}></img>
                     </div>
                 </div>
             </div>
-            <p className={classes.p}>© Copyright by BYulia911. Use for learning or your portfolio. Don't use to teach. Don't claim as your own product.</p>
+            <p className={classes.p}>Copyright © 2024 BYulia911. All rights reserved.</p>
         </footer>
         
     )

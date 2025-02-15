@@ -27,7 +27,7 @@
     color: black;
 }
 .a:hover {
-    color: #708BDD;
+    color: #7396ff;
 }
 
 .logos {
@@ -38,19 +38,20 @@
     gap: 8px;
 }
 
-.logoImg {
-    height: 49px;
-    width: 49px;
+.logoVk {
+    height: 46px;
+    width: 46px;
 }
 
 .logoTg {
-    height: 44px;
-    width: 44px;
+    height: 42px;
+    width: 42px;
 }
 
 .logoWhatsup {
-    height: 51px;
-    width: 51px;
+    height: 50px;
+    width: 50px;
+    margin-left: 2px;
 }
 
 .h4 {
@@ -62,6 +63,11 @@
 .p {
     text-align: center;
     font-size: 16px;
-    margin-bottom: 5px;
+    margin: 0;
     color: black;
+    padding: 1px;
+}
+
+.footerContainer {
+    margin: 30px;
 }
