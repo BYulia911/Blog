@@ -1,3 +1,4 @@
+import { Routes, Route, Link } from 'react-router-dom';
 import classes from './Header.module.css'
 
 function Header() {
@@ -5,9 +6,9 @@ function Header() {
         <header className={classes.header}>
             <nav className={classes.nav}>
                 <ul className={classes.navList}>
-                    <li className={classes.li}><a className={classes.a} href='#'>Главная</a></li>
-                    <li className={classes.li}><a className={classes.a} href='#'>Категории</a></li>
-                    <li className={classes.li}><a className={classes.a} href='#'>Обо мне</a></li>
+                    <li className={classes.li}><Link className={classes.link} to="/">Home</Link></li>
+                    <li className={classes.li}><a className={classes.a} href='#'>Categories</a></li>
+                    <li className={classes.li}><Link className={classes.link} to="/about">About me</Link></li>
                 </ul>
             </nav>
         </header>
@@ -15,4 +16,4 @@ function Header() {
     )
 }
 
-export default Header
+export default Header;

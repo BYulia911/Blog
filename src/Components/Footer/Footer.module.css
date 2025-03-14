@@ -11,7 +11,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 15px;
     gap: 150px;
 }
 
@@ -39,18 +39,18 @@
 }
 
 .logoVk {
-    height: 46px;
-    width: 46px;
+    height: 44px;
+    width: 44px;
 }
 
 .logoTg {
-    height: 42px;
-    width: 42px;
+    height: 40px;
+    width: 40px;
 }
 
 .logoWhatsup {
-    height: 50px;
-    width: 50px;
+    height: 47px;
+    width: 47px;
     margin-left: 2px;
 }
 
@@ -58,6 +58,7 @@
     font-size: 20px;
     color: black;
     margin: 0;
+    margin-bottom: 5px;
 }
 
 .p {

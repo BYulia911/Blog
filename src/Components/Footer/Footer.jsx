@@ -8,12 +8,12 @@ function Footer() {
         <footer className={classes.footer}>
             <div className={classes.footerContainer}>
                 <div className={classes.navigation}>
-                    <a className={classes.a} href='#'>Главная</a>
-                    <a className={classes.a} href='#'>Категории</a>
-                    <a className={classes.a} href='#'>Обо мне</a>
+                    <a className={classes.a} href='#'>Home</a>
+                    <a className={classes.a} href='#'>Categories</a>
+                    <a className={classes.a} href='#'>About me</a>
                 </div>
                 <div className={classes.contacts}>
-                    <h4 className={classes.h4}>Связаться со мной</h4>
+                    <h4 className={classes.h4}>Contact me</h4>
                     <div className={classes.logos}>
                         <img className={classes.logoVk} src={vkLogo}></img>
                         <img className={classes.logoTg} src={telegramLogo}></img>
