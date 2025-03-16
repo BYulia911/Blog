@@ -36,6 +36,9 @@
 }
 
 .contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-self: center;
 }
 
@@ -78,6 +81,7 @@
     color: black;
     margin: 0;
     margin-bottom: 5px;
+    text-align: center;
 }
 
 .p {
@@ -86,4 +90,41 @@
     margin: 0;
     color: black;
     padding: 1px;
+}
+
+@media (max-width: 768px) {
+    .link {
+        font-size: 14px;
+    }
+
+    .navigation {
+        padding: 0;
+    }
+
+    .h4 {
+        font-size: 16px;
+    }
+
+    .footerContainer {
+        gap: 60px;
+    }
+
+    .logoVk {
+        height: 30px;
+        width: 30px;
+    }
+    
+    .logoTg {
+        height: 28px;
+        width: 28px;
+    }
+    
+    .logoWhatsup {
+        height: 34px;
+        width: 34px;
+    }
+    
+    .p {
+        font-size: 12px;
+    }
 }
