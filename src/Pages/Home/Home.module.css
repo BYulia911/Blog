@@ -1,5 +1,7 @@
 .containerAllNotes {
     display: grid;
+    text-align: center;
+    justify-items: center;
     grid-template-columns: repeat(4, 1fr);
     gap: 15px;
     margin: 10px;
@@ -10,5 +12,6 @@
 @media (max-width: 768px) {
     .containerAllNotes {
         grid-template-columns: repeat(1, 1fr);
+        margin: 0;
     }
 }
