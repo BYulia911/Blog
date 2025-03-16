@@ -1,7 +1,9 @@
 .footer {
     background-color: #ebf0ff;
     width: 100%;
-    position: absolute;
+    position: relative;
+    padding-top: 15px;
+    margin: 0;
     bottom: 0;
     left: 0;
     right: 0;
@@ -11,23 +13,30 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 15px;
+    height: 100%;
     gap: 150px;
+    margin: 10px;
 }
 
 .navigation {
     display: flex;
     flex-direction: column;
+    list-style: none;
 }
 
-.a {
+.link {
+    color: black;
     text-decoration: underline;
     font-size: 18px;
     margin: 0;
-    color: black;
 }
-.a:hover {
+
+.link:hover {
     color: #7396ff;
+}
+
+.contacts {
+    align-self: center;
 }
 
 .logos {
@@ -35,7 +44,12 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    height: fit-content;
     gap: 8px;
+}
+
+.logos img{
+    vertical-align: top;
 }
 
 .logoVk {
@@ -54,6 +68,11 @@
     margin-left: 2px;
 }
 
+.logoVk, .logoTg, .logoWhatsup {
+    display: block;
+    margin-bottom: 0;
+}
+
 .h4 {
     font-size: 20px;
     color: black;
@@ -67,8 +86,4 @@
     margin: 0;
     color: black;
     padding: 1px;
-}
-
-.footerContainer {
-    margin: 30px;
 }
